@@ -32,11 +32,11 @@ button{
     color: rgba(0, 0, 0, 0.6);
 }
 
-.nav-link :hover{
+.nav-item :hover{
     color: green;
 }
 
-.nav-link.active{
+.nav-item.active{
     border-bottom: 2px solid;
     color: green;
 }
@@ -77,14 +77,13 @@ button{
     transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.card-text{
-    color: green;
-}
-
 .card-img-top.small{
     height: 200px;
 }
 
+.card-text{
+    color: green;
+}
 
 .hero-image{
     height: 90vh;
@@ -111,6 +110,25 @@ button{
     margin-bottom: 70px;
 }
 
+.card4{
+    margin-left: 200px;
+    margin-right: 600px;
+    margin-top: 10px;
+}
+
+.card5{
+    margin-left: 200px;
+    margin-right: 600px;
+    margin-top: 10px;
+}
+
+.card6{
+    margin-left: 200px;
+    margin-right: 600px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
 .btn{
     margin-top: -15px;
     width: 100%;
@@ -122,5 +140,21 @@ h6{
     margin-left: 10px;
     margin-bottom: 10px;
     float: center;
+}
+
+a{
+    color: white;
+}
+
+a :hover{
+    color: beige;
+}
+
+/* Tabel content */
+
+.table{
+    margin-top: 200px;
+    width: 1200px;
+    margin-left: 120px;
 }
 

@@ -16,54 +16,63 @@
 
   <nav class="navbar fixed-top">
     <div class="container">
-  
-        
+
+      
       <a class="navbar-brand" href="#">
         <img src="assets/Logo.svg" alt="logo" height="32">
       </a>
-  
+
         <ul class="nav">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="browse.html">Browse</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="wishlist.html">Wishlist</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="">Wishlist</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="#">Disabled</a>
           </li>
         </ul>
-    </div>
-  </nav>
+      </div>
+    </nav>
 
-    <div class="container mt-5 pt-5">
-        <h2>Browse plants</h2>
+    <!--Table Content-->
 
-        <div class="row py-5 gy-3" id="plantsContainer">
-          <template id="plantCardTemplate">
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+    </table>
 
-            <!--Browse card template -->
-            <div class="col-4">
-                <div class="card">
-                    <img class="card-img-top" src="assets/plant1.png" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title" id="nameText">Ficus Tree</h5>
-                      <p class="card-text" id="priceText"> R250 </p>
-                      <p class="card-text" id="descriptionText">Its been a long road with plants in our human kind era</p>
-                    </div>
-                </div>
-            </div>
-          </template>
-        </div>
-    </div>
 
-
-
-
-    <!-- Scripts -->
+  <!-- Scripts -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
