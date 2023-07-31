@@ -97,3 +97,11 @@ $("#plantsContainer").on('click', '.card', function() {
     //Resize the image to fit the additional content
     $(this).find(".car-img-top").toggleClass("small");
 });
+
+//When the remove button is clicked
+
+$("#removeButton").click(function(){
+
+    //When the remove button is clicked is clicked
+    $(".wholeRowOne").remove()
+})

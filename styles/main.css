@@ -43,7 +43,7 @@ button{
 
 
 .carousel-item{
-    background-color: #E6F2E9;
+    background-color: #C1E1C1;
 }
 
 .carousel-control-next, .carousel-control-prev{
@@ -64,10 +64,12 @@ button{
 /* Card */
 .card{
     border-radius: 150px 150px 12px 12px;
-    background: beige;
+    background: #416d3e;
     text-align: center;
     border: none;
     height: 440px;
+    margin-top: 20px;
+    color: white;
 }
 
 .card-img-top{
@@ -82,7 +84,7 @@ button{
 }
 
 .card-text{
-    color: green;
+    color: white;
 }
 
 .hero-image{
@@ -110,21 +112,23 @@ button{
     margin-bottom: 70px;
 }
 
+/*Accordion */
+
 .card4{
-    margin-left: 200px;
-    margin-right: 600px;
-    margin-top: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 30px;
 }
 
 .card5{
-    margin-left: 200px;
-    margin-right: 600px;
+    margin-left: 400px;
+    margin-right: 400px;
     margin-top: 10px;
 }
 
 .card6{
-    margin-left: 200px;
-    margin-right: 600px;
+    margin-left: 400px;
+    margin-right: 400px;
     margin-top: 10px;
     margin-bottom: 70px;
 }
@@ -150,11 +154,44 @@ a :hover{
     color: beige;
 }
 
-/* Tabel content */
+/* Table content */
 
 .table{
     margin-top: 200px;
-    width: 1200px;
-    margin-left: 120px;
+    width: 1000px;
+    margin-left: 190px;
+    background-color: #C1E1C1;
+    border-radius: 10px
 }
+
+html{
+    background-color: #E6F2E9;
+}
+
+body{
+    background-color: #E6F2E9;
+}
+
+img{
+    border-radius: 5px;
+}
+
+.remove{
+    color: white;
+    background-color: #416d3e;
+    width: 85px;
+    height: 50px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+.tableText{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
 
